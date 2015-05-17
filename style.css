@@ -1,0 +1,72 @@
+html, body, .container{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+body{
+  background: url('trianglify.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+}
+.container{
+  margin: auto;
+  max-width: 66%;
+
+  height: 100%;
+  width: 100%;
+
+  text-align: center;
+  display: table;
+}
+.content{
+  display: table-cell;
+  vertical-align: middle;
+}
+h1{
+  font-size: 3em;
+}
+i.fa{
+  padding: 0 10px;
+  color: #FFF;
+}
+i.fa, #resume{
+  -webkit-transition: color 300ms;
+  -moz-transition: color 300ms;
+  -o-transition: color 300ms;
+  transition: color 300ms;
+}
+#linkedin:hover{
+  color: #0077B5
+}
+#email:hover{
+  color: #db4437
+}
+#github:hover{
+  color: #333333
+}
+#resume{
+  color: #FFF;
+  text-decoration: none;
+}
+#resume:hover{
+  color: #777777
+}
+@media only screen and (max-width: 900px) {
+  .container{
+    max-width: 90%;
+  }
+  h1{
+    font-size: 2em;
+  }
+  h2{
+    font-size: 1.2em;
+  }
+  i.fa{
+    font-size: 2.5em;
+  }
+}
