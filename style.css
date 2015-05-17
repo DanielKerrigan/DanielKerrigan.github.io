@@ -29,6 +29,7 @@ body{
 }
 h1{
   font-size: 3em;
+  -webkit-margin-before: 0em;
 }
 i.fa{
   padding: 0 10px;
