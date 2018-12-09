@@ -1,0 +1,25 @@
+/* Guided by http://jgthms.com/web-design-in-4-minutes/ */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    color: #000;
+    background-color: #f0f0f0;
+}
+
+header, main {
+    margin: 0 auto;
+    padding: 1em;
+    max-width: 50em;
+}
+
+header {
+    max-width: none;
+    text-align: center;
+}
+
+header>h1 {
+    color: #000;
+}
