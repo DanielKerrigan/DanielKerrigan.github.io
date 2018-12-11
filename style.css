@@ -23,14 +23,13 @@ body{
   vertical-align: middle;
 }
 h1{
-  font-size: 3em;
   -webkit-margin-before: 0em;
 }
-i.fa{
+i.fa, i.fab{
   color: #000;
   padding: 0 10px;
 }
-i.fa, #resume{
+i.fa, i.fab{
   -webkit-transition: color 300ms;
   -moz-transition: color 300ms;
   -o-transition: color 300ms;
