@@ -19,11 +19,11 @@
 
 <style>
   header {
-    margin-top: 1.5rem;
+    margin-top: 2.0rem;
   }
 
   main {
     max-width: 35rem;
-    margin-top: 1.5rem;
+    margin-top: 2.0rem;
   }
 </style>

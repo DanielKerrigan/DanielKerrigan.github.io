@@ -15,7 +15,7 @@
 
 <section id="slicelens">
   <h2>SliceLens</h2>
-  <p><a href="https://slicelens.vercel.app">SliceLens</a> is one of my current research projects at NYU. It is a tool for guided exploration of machine learning datasets and model predictions. Checkout the <a href="https://github.com/nyuvis/SliceLens">GitHub repo</a> for more info.</p>
+  <p><a href="https://slicelens.vercel.app">SliceLens</a> is one of my current research projects at NYU. It is a tool for guided exploration of machine learning datasets and model predictions. Checkout the <a href="https://github.com/nyuvis/SliceLens">GitHub repository</a> for more info.</p>
 </section>
 
 <section id="course">

@@ -2,19 +2,20 @@
   --light-blue: #85C1E9;
   --dark-gray: #111111;
   --white: white;
+  --black: black;
 }
 
 html {
-  font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Helvetica', sans-serif;
   font-size: 20px;
-  background-color: var(--dark-gray);
-  color: var(--white);
   line-height: 1.35;
 }
 
 body {
   margin: 0;
   width: 100%;
+  padding: 0 1em;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,7 +29,7 @@ h1 {
 
 h2 {
   font-size: 22px;
-  font-weight: 500;
+  font-weight: 600;
   margin: 0;
 }
 
@@ -36,20 +37,38 @@ p {
   margin: 0;
 }
 
-a {
-  color: var(--white);
-}
-
 a:hover {
-  color: var(--light-blue)
+  color: var(--light-blue);
 }
 
 main > * + * {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: var(--dark-gray);
+    color: var(--white);
+  }
+
+  a {
+    color: var(--white);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  html {
+    background-color: var(--white);
+    color: var(--black);
+  }
+
+  a {
+    color: var(--black);
+  }
 }
