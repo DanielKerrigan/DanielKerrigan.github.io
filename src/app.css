@@ -1,6 +1,7 @@
 :root {
   --light-blue: #85C1E9;
   --dark-gray: #111111;
+  --light-gray: #f4f4f4;
   --white: white;
   --black: black;
 }
@@ -9,6 +10,10 @@ html {
   font-family: 'Gill Sans', 'Gill Sans MT', 'Helvetica', sans-serif;
   font-size: 20px;
   line-height: 1.35;
+
+  /* changed in dark mode */
+  background-color: var(--light-gray);
+  color: var(--black);
 }
 
 body {
@@ -22,19 +27,36 @@ body {
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 600;
   margin: 0;
 }
 
 h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+
+h3 {
   font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+}
+
+h4 {
+  font-size: 20px;
   font-weight: 600;
   margin: 0;
 }
 
 p {
   margin: 0;
+}
+
+a {
+  /* changed in dark mode */
+  color: var(--black);
 }
 
 a:hover {
@@ -45,26 +67,38 @@ main > * + * {
   margin-top: 1.5rem;
 }
 
+section > * + * {
+  margin-top: 0.75rem;
+}
+
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
+.horizontal-list {
+  display: flex;
+}
+
+.horizontal-list > li + li {
+  margin-left: 0.5em;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     background-color: var(--dark-gray);
-    color: var(--white);
+    color: var(--light-gray);
   }
 
   a {
-    color: var(--white);
+    color: var(--light-gray);
   }
 }
 
 @media (prefers-color-scheme: light) {
   html {
-    background-color: var(--white);
+    background-color: var(--light-gray);
     color: var(--black);
   }
 

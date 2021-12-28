@@ -25,5 +25,6 @@
   main {
     max-width: 35rem;
     margin-top: 2.0rem;
+    margin-bottom: 2.0rem;
   }
 </style>
