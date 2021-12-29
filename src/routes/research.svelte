@@ -15,6 +15,8 @@
 
 <h2>Research</h2>
 
+<p>I am interested in visualization and HCI, particularly as they relate to the development, evaluation, and use of machine learning models. My research takes a human-centered perspective on how the machine learning process can be improved.</p>
+
 <section>
 
   <h3>Publications</h3>
@@ -58,10 +60,6 @@
 </section>
 
 <style>
-  p {
-    margin-top: 0.5rem;
-  }
-
   .venue {
     font-style: italic;
   }
