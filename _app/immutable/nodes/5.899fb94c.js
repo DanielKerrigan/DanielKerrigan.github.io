@@ -1,0 +1,8 @@
+import{s as T,n as c}from"../chunks/scheduler.e108d1fd.js";import{S as _,i as y,g as h,s as b,h as p,x as u,c as d,a as o,f as i}from"../chunks/index.07593fae.js";function C(x){let t,m="Teaching",l,s,v=`<h3>Information Visualization</h3> <p>I have spent five semesters as a TA for NYU Tandon&#39;s Information Visualization course. I have
+		developed <a href="https://observablehq.com/@nyuvis?tab=collections">collections of Observable notebooks</a>
+		to help teach students how to build visualizations with D3. The notebooks contain
+		<a href="https://observablehq.com/collection/@nyuvis/guides-and-examples">tutorials and examples</a>,
+		<a href="https://observablehq.com/collection/@nyuvis/practice-exercises">practice exercises</a>,
+		and <a href="https://observablehq.com/collection/@nyuvis/exercises">homework assignments</a>.</p>`,r,a,f=`<h3>Online D3 Help</h3> <p>Outside of class, I enjoy helping people learn D3 online. I&#39;ve answered over 50 questions about
+		D3 on <a href="https://stackoverflow.com/users/5016634/dan">Stack Overflow</a> and the
+		<a href="https://talk.observablehq.com/u/danielkerrigan/summary">Observable forums</a>.</p>`;return{c(){t=h("h2"),t.textContent=m,l=b(),s=h("section"),s.innerHTML=v,r=b(),a=h("section"),a.innerHTML=f},l(e){t=p(e,"H2",{"data-svelte-h":!0}),u(t)!=="svelte-1uetey5"&&(t.textContent=m),l=d(e),s=p(e,"SECTION",{"data-svelte-h":!0}),u(s)!=="svelte-652ia5"&&(s.innerHTML=v),r=d(e),a=p(e,"SECTION",{"data-svelte-h":!0}),u(a)!=="svelte-bjn2wd"&&(a.innerHTML=f)},m(e,n){o(e,t,n),o(e,l,n),o(e,s,n),o(e,r,n),o(e,a,n)},p:c,i:c,o:c,d(e){e&&(i(t),i(l),i(s),i(r),i(a))}}}class q extends _{constructor(t){super(),y(this,t,null,C,T,{})}}export{q as component};

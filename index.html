@@ -2,51 +2,52 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="theme-color" content="#ffffff" />
 
-    <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#85c1e9">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>Daniel Kerrigan</title>
+		<link rel="manifest" href="/manifest.json" />
+		<link rel="icon" type="image/png" href="./favicon.png" />
 
 		
-
-		<link rel="stylesheet" href="/./_app/assets/start-a8cd1609.css">
-		<link rel="stylesheet" href="/./_app/assets/pages/__layout.svelte-91696055.css">
-
-		
+		<link href="./_app/immutable/assets/0.ee4ab94d.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.6eef29b2.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.e108d1fd.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.9102eb6c.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.78a6b656.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.07593fae.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.7c4604fa.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.ec5c4307.js"><title>Daniel Kerrigan</title><!-- HEAD_svelte-1j8txv6_START --><!-- HEAD_svelte-1j8txv6_END -->
 	</head>
-	<body>
-		<div id="svelte">
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">   <div id="content"><header class="svelte-4wn6j6"><h1 data-svelte-h="svelte-f4k7rc">Daniel Kerrigan</h1> <nav data-svelte-h="svelte-imgfqo"><ul class="horizontal-list"><li><a href="/">About</a></li> <li><a href="/research">Research</a></li> <li><a href="/teaching">Teaching</a></li> <li><a href="/other">Other</a></li> <li><a rel="external" href="/resume.pdf">Resume</a></li></ul></nav></header> <main class="svelte-4wn6j6"><p data-svelte-h="svelte-1n4ovty">I am a computer science Ph.D. student at Northeastern University, where I am advised by <a href="http://enrico.bertini.io">Enrico Bertini</a>. I am interested in information visualization and its applications relating to machine learning.
+	Before our lab moved to Northeastern, I was a Ph.D. student at NYU. Prior to grad school, I worked
+	as a software development engineer at Amazon Robotics and did my undergraduate studies at Notre
+	Dame.</p> <div data-svelte-h="svelte-17oxif4"><ul><li>Email: <a href="mailto:dkerriga@alumni.nd.edu">dkerriga@alumni.nd.edu</a></li> <li><a href="https://observablehq.com/@danielkerrigan">Observable</a></li> <li><a href="https://stackoverflow.com/users/5016634/dan">Stack Overflow</a></li> <li><a href="https://github.com/danielkerrigan">GitHub</a></li> <li><a href="https://www.linkedin.com/in/kerrigandan/">LinkedIn</a></li></ul></div></main> </div> 
+			
+			<script>
+				{
+					__sveltekit_1kka8ri = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: {}
+					};
 
+					const element = document.currentScript.parentElement;
 
+					const data = [null,null];
 
-
-<div id="content"><header class="svelte-16ep9rw"><h1>Daniel Kerrigan</h1>
-<nav><ul class="horizontal-list"><li><a href="/">About</a></li>
-    <li><a href="/research">Research</a></li>
-    <li><a href="/teaching">Teaching</a></li>
-    <li><a href="/other">Other</a></li>
-    <li><a rel="external" href="/resume.pdf">Resume</a></li></ul></nav></header>
-
-  <main class="svelte-16ep9rw"><p>I am a computer science Ph.D. student at Northeastern University, where I am advised by <a href="http://enrico.bertini.io">Enrico Bertini</a>. I am interested in information visualization and its applications relating to machine learning. Before our lab moved to Northeastern, I was a Ph.D. student at NYU. Prior to grad school, I worked as a software development engineer at Amazon Robotics and did my undergraduate studies at Notre Dame.</p>
-
-<div><ul><li>Email: <a href="mailto:dkerriga@alumni.nd.edu">dkerriga@alumni.nd.edu</a></li>
-    <li><a href="https://observablehq.com/@danielkerrigan">Observable</a></li>
-    <li><a href="https://stackoverflow.com/users/5016634/dan">Stack Overflow</a></li>
-    <li><a href="https://github.com/danielkerrigan">GitHub</a></li>
-    <li><a href="https://www.linkedin.com/in/kerrigandan/">LinkedIn</a></li></ul></div></main>
-</div>
-
-
-
-	
-</div>
+					Promise.all([
+						import("./_app/immutable/entry/start.6eef29b2.js"),
+						import("./_app/immutable/entry/app.78a6b656.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
 	</body>
 </html>
