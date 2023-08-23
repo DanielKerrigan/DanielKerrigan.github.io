@@ -1,18 +1,3 @@
-<script lang="ts">
-  import { dev } from '$app/env';
-
-	// we don't need any JS on this page, though we'll load
-	// it in dev so that we get hot module replacement...
-	export const hydrate = dev;
-
-	// don't use client side router
-	export const router = false;
-
-	// since there's no dynamic data here, we can prerender
-	// it so that it gets served as a static asset in prod
-	export const prerender = true;
-</script>
-
 <h2>Teaching</h2>
 
 <section>

@@ -1,108 +1,108 @@
 :root {
-  --light-blue: #85C1E9;
-  --dark-gray: #111111;
-  --light-gray: #f4f4f4;
-  --white: white;
-  --black: black;
+	--light-blue: #85c1e9;
+	--dark-gray: #111111;
+	--light-gray: #f4f4f4;
+	--white: white;
+	--black: black;
 }
 
 html {
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Helvetica', sans-serif;
-  font-size: 20px;
-  line-height: 1.35;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Helvetica', sans-serif;
+	font-size: 20px;
+	line-height: 1.35;
 
-  /* changed in dark mode */
-  background-color: var(--light-gray);
-  color: var(--black);
+	/* changed in dark mode */
+	background-color: var(--light-gray);
+	color: var(--black);
 }
 
 body {
-  margin: 0;
-  width: 100%;
-  padding: 0 1em;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+	margin: 0;
+	width: 100%;
+	padding: 0 1em;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 h1 {
-  font-size: 26px;
-  font-weight: 600;
-  margin: 0;
+	font-size: 26px;
+	font-weight: 600;
+	margin: 0;
 }
 
 h2 {
-  font-size: 24px;
-  font-weight: 600;
-  margin: 0;
+	font-size: 24px;
+	font-weight: 600;
+	margin: 0;
 }
 
 h3 {
-  font-size: 22px;
-  font-weight: 600;
-  margin: 0;
+	font-size: 22px;
+	font-weight: 600;
+	margin: 0;
 }
 
 h4 {
-  font-size: 20px;
-  font-weight: 600;
-  margin: 0;
+	font-size: 20px;
+	font-weight: 600;
+	margin: 0;
 }
 
 p {
-  margin: 0;
+	margin: 0;
 }
 
 a {
-  /* changed in dark mode */
-  color: var(--black);
+	/* changed in dark mode */
+	color: var(--black);
 }
 
 a:hover {
-  color: var(--light-blue);
+	color: var(--light-blue);
 }
 
 main > * + * {
-  margin-top: 1.5rem;
+	margin-top: 1.5rem;
 }
 
 section > * + * {
-  margin-top: 0.75rem;
+	margin-top: 0.75rem;
 }
 
 ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 .horizontal-list {
-  display: flex;
+	display: flex;
 }
 
 .horizontal-list > li + li {
-  margin-left: 0.5em;
+	margin-left: 0.5em;
 }
 
 @media (prefers-color-scheme: dark) {
-  html {
-    background-color: var(--dark-gray);
-    color: var(--light-gray);
-  }
+	html {
+		background-color: var(--dark-gray);
+		color: var(--light-gray);
+	}
 
-  a {
-    color: var(--light-gray);
-  }
+	a {
+		color: var(--light-gray);
+	}
 }
 
 @media (prefers-color-scheme: light) {
-  html {
-    background-color: var(--light-gray);
-    color: var(--black);
-  }
+	html {
+		background-color: var(--light-gray);
+		color: var(--black);
+	}
 
-  a {
-    color: var(--black);
-  }
+	a {
+		color: var(--black);
+	}
 }
