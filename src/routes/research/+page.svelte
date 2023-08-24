@@ -10,12 +10,29 @@
 	<h3>Publications</h3>
 
 	<div>
+		<h4>SliceLens: Guided Exploration of Machine Learning Datasets</h4>
+		<div>Daniel Kerrigan, Enrico Bertini</div>
+		<div>
+			<span class="venue"
+				>In Proceedings of the Workshop on Human-In-the-Loop Data Analytics (HILDA '23)</span
+			>, 2023
+		</div>
+		<div>
+			<ul class="horizontal-list">
+				<li><a href="https://doi.org/10.1145/3597465.3605217">Paper</a></li>
+				<li><a href="https://osf.io/n9xkq">Preprint</a></li>
+				<li><a href="https://github.com/nyuvis/SliceLens">GitHub</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div>
 		<h4>A Survey of Domain Knowledge Elicitation in Applied Machine Learning</h4>
 		<div>Daniel Kerrigan, Jessica Hullman, Enrico Bertini</div>
 		<div><span class="venue">Multimodal Technologies and Interaction</span>, 2021</div>
 		<div>
 			<ul class="horizontal-list">
-				<li><a href="https://doi.org/10.3390/mti5120073">Article</a></li>
+				<li><a href="https://doi.org/10.3390/mti5120073">Paper</a></li>
 				<li><a href="https://github.com/DanielKerrigan/elicitation-survey">GitHub</a></li>
 			</ul>
 		</div>
@@ -39,11 +56,18 @@
 	<h3>In progress</h3>
 
 	<div>
-		<h4>SliceLens</h4>
+		<h4>Monomoy</h4>
 		<p>
-			<a href="https://slicelens.vercel.app">SliceLens</a> is one of my current research projects.
-			It is a tool for guided exploration of machine learning datasets and model predictions.
-			Checkout the <a href="https://github.com/nyuvis/SliceLens">GitHub repository</a> for more info.
+			<a href="https://github.com/DanielKerrigan/Monomoy">Monomoy</a> is a tool for helping domain experts
+			familiarize themselves with and identify unintuitive behavior in machine learning models.
+		</p>
+	</div>
+
+	<div>
+		<h4>PDPilot</h4>
+		<p>
+			<a href="https://pdpilot.readthedocs.io/en/latest/">PDPilot</a> is a tool for guiding users in
+			analyzing machine learning models through PDP and ICE plots.
 		</p>
 	</div>
 </section>
