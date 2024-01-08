@@ -1,4 +1,4 @@
-import{s as I,n as m}from"../chunks/scheduler.e108d1fd.js";import{S as _,i as C,g as p,s as v,h as u,x as f,c as b,a as o,f as l}from"../chunks/index.07593fae.js";function k(T){let t,d="Teaching",r,s,x=`<h3>Information Visualization</h3> <p>I spent five semesters as a teaching assistant for NYU Tandon&#39;s Information Visualization
+import{s as I,n as m}from"../chunks/scheduler.k-kUyWhY.js";import{S as _,i as C,g as p,s as v,h as u,x as f,c as b,a as o,f as l}from"../chunks/index.fsdz6Sqm.js";function k(T){let t,d="Teaching",r,s,x=`<h3>Information Visualization</h3> <p>I spent five semesters as a teaching assistant for NYU Tandon&#39;s Information Visualization
 		course. I have developed <a href="https://observablehq.com/@nyuvis?tab=collections">collections of Observable notebooks</a>
 		to help teach students how to build visualizations with D3. The notebooks contain
 		<a href="https://observablehq.com/collection/@nyuvis/guides-and-examples">tutorials and examples</a>,
