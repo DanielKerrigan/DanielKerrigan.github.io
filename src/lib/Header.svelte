@@ -5,6 +5,6 @@
 		<li><a href="/research">Research</a></li>
 		<li><a href="/teaching">Teaching</a></li>
 		<li><a href="/other">Other</a></li>
-		<li><a rel="external" href="/resume.pdf">Resume</a></li>
+		<li><a rel="external" href="/daniel-kerrigan-resume.pdf">Resume</a></li>
 	</ul>
 </nav>
