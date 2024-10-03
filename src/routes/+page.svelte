@@ -14,5 +14,6 @@
 		<li><a href="https://stackoverflow.com/users/5016634/dan">Stack Overflow</a></li>
 		<li><a href="https://github.com/danielkerrigan">GitHub</a></li>
 		<li><a href="https://www.linkedin.com/in/kerrigandan/">LinkedIn</a></li>
+		<li><a href="https://scholar.google.com/citations?user=iBosk34AAAAJ">Google Scholar</a></li>
 	</ul>
 </div>

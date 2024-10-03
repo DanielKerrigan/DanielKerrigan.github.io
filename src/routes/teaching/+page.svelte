@@ -3,9 +3,9 @@
 <section>
 	<h3>Information Visualization</h3>
 	<p>
-		I spent five semesters as a teaching assistant for NYU Tandon's Information Visualization
-		course. I have developed <a href="https://observablehq.com/@nyuvis?tab=collections"
-			>collections of Observable notebooks</a
+		I spent many semesters as a teaching assistant for my advisor's information visualization
+		course, both at NYU and Northeastern. I have developed <a
+			href="https://observablehq.com/@nyuvis?tab=collections">collections of Observable notebooks</a
 		>
 		to help teach students how to build visualizations with D3. The notebooks contain
 		<a href="https://observablehq.com/collection/@nyuvis/guides-and-examples"
@@ -19,10 +19,13 @@
 <section>
 	<h3>Visualization for Machine Learning</h3>
 	<p>
-		I spent one semester as a teaching assistant for Northeastern's Visualization for Machine
-		Learning course. I created a <a href="https://github.com/DanielKerrigan/vis4ml-class-notebooks"
+		I spent one semester as a teaching assistant for my advisor's Visualization for Machine Learning
+		course at Northeastern. I created a <a
+			href="https://github.com/DanielKerrigan/vis4ml-class-notebooks"
 			>collection of Jupyter notebooks</a
-		> for teaching machine learning explainability concepts using Altair.
+		>
+		for teaching machine learning explainability concepts using
+		<a href="https://altair-viz.github.io">Altair</a>.
 	</p>
 </section>
 
