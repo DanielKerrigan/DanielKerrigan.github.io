@@ -5,7 +5,7 @@
 	<p>
 		I spent many semesters as a teaching assistant for my advisor's information visualization
 		course, both at NYU and Northeastern. I have developed <a
-			href="https://observablehq.com/@nyuvis?tab=collections">collections of Observable notebooks</a
+			href="https://observablehq.com/@nyuvis">collections of Observable notebooks</a
 		>
 		to help teach students how to build visualizations with D3. The notebooks contain
 		<a href="https://observablehq.com/collection/@nyuvis/guides-and-examples"
