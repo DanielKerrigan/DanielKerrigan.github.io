@@ -4,7 +4,7 @@
 	<h3>Observable Notebooks</h3>
 	<p>
 		You can find additional visualizations that I have created on my <a
-			href="https://observablehq.com/@danielkerrigan?tab=collections">Observable profile</a
+			href="https://observablehq.com/@danielkerrigan">Observable profile</a
 		>.
 	</p>
 </section>

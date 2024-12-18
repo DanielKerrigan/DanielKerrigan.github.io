@@ -11,15 +11,7 @@
 		<h4>SAEfarer</h4>
 		<p>
 			<a href="http://dankerrigan.me/saefarer/">SAEfarer</a> is a visual analytics tool for exploring
-			sparse autoencoders.
-		</p>
-	</div>
-
-	<div>
-		<h4>PDPilot</h4>
-		<p>
-			<a href="https://pdpilot.readthedocs.io/en/latest/">PDPilot</a> is an application for guiding users
-			in analyzing machine learning models through PDP and ICE plots.
+			sparse autoencoders, with a particular focus on labeled data.
 		</p>
 	</div>
 
@@ -33,7 +25,18 @@
 </section>
 
 <section>
-	<h3>Publications</h3>
+	<h3>Under review</h3>
+	<div>
+		<h4>PDPilot</h4>
+		<p>
+			<a href="https://pdpilot.readthedocs.io/en/latest/">PDPilot</a> is an application for guiding users
+			in analyzing machine learning models through PDP and ICE plots.
+		</p>
+	</div>
+</section>
+
+<section>
+	<h3>Published</h3>
 
 	<div>
 		<h4>Towards a Visual Perception-Based Analysis of Clustering Quality Metrics</h4>
@@ -44,10 +47,7 @@
 		<div>
 			<ul class="horizontal-list">
 				<li>
-					<a
-						href="https://github.com/blasilli/ClusteringMetricsPerception/blob/main/%5BPreprint%5D%20Towards%20a%20Visual%20Perception-Based%20Analysis%20of%20Clustering%20Quality%20Metrics.pdf"
-						>Preprint</a
-					>
+					<a href="https://doi.org/10.1109/VDS63897.2024.00007">Paper</a>
 				</li>
 				<li><a href="https://github.com/blasilli/ClusteringMetricsPerception">GitHub</a></li>
 			</ul>
