@@ -25,18 +25,25 @@
 </section>
 
 <section>
-	<h3>Under review</h3>
-	<div>
-		<h4>PDPilot</h4>
-		<p>
-			<a href="https://pdpilot.readthedocs.io/en/latest/">PDPilot</a> is an application for guiding users
-			in analyzing machine learning models through PDP and ICE plots.
-		</p>
-	</div>
-</section>
-
-<section>
 	<h3>Published</h3>
+
+	<div>
+		<h4>PDPilot: Exploring Partial Dependence Plots Through Ranking, Filtering, and Clustering</h4>
+		<div>Daniel Kerrigan, Brian Barr, and Enrico Bertini</div>
+		<div>
+			<span class="venue">IEEE Transactions on Visualization and Computer Graphics</span>, 2025
+		</div>
+		<div>
+			<ul class="horizontal-list">
+				<li>
+					<a href="https://doi.org/10.1109/TVCG.2025.3545025">Paper</a>
+				</li>
+				<li><a href="https://pdpilot.readthedocs.io/en/latest/">Docs</a></li>
+				<li><a href="https://github.com/DanielKerrigan/PDPilot">GitHub</a></li>
+				<li><a href="https://vimeo.com/1060263725">Demo</a></li>
+			</ul>
+		</div>
+	</div>
 
 	<div>
 		<h4>Towards a Visual Perception-Based Analysis of Clustering Quality Metrics</h4>
